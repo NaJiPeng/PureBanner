@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingDefaultResource">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".AnimationActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="1.放大缩小效果"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <com.njp.library.Banner
+                android:id="@+id/banner_scale"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:itemCornerRadius="7dp"
+                app:itemMargin="10dp"
+                app:previousNextMargin="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2.绕上旋转效果"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <com.njp.library.Banner
+                android:id="@+id/banner_rotate_up"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:itemCornerRadius="7dp"
+                app:previousNextMargin="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3.绕下旋转效果"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <com.njp.library.Banner
+                android:id="@+id/banner_rotate_down"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:itemCornerRadius="7dp"
+                app:previousNextMargin="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4.立方体效果"
+                android:textColor="#000"
+                android:textSize="18sp" />
+
+            <com.njp.library.Banner
+                android:id="@+id/banner_cube"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</layout>
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <!--indicator的大小-->
+        <attr name="indicatorSize" format="dimension"/>
+        <!--指示器默认颜色-->
+        <attr name="defaultIndicatorColor" format="color" />
+        <!--指示器选中颜色-->
+        <attr name="activeIndicatorColor" format="color" />
+        <!--是否自动播放-->
+        <attr name="autoPlay" format="boolean" />
+        <!--自动播放的时间周期-->
+        <attr name="interval" format="integer" />
+        <!--自动播放的滚动时间-->
+        <attr name="duration" format="integer" />
+        <!--前后两个item露出的距离-->
+        <attr name="previousNextMargin" format="dimension" />
+        <!--相邻两个item的间距-->
+        <attr name="itemMargin" format="dimension" />
+        <!--item的圆角半径-->
+        <attr name="itemCornerRadius" format="dimension" />
+    </declare-styleable>
+</resources>
