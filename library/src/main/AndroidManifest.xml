@@ -1,10 +1,2 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.njp.library">
-
-    <application
-        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
-        tools:targetApi="28">
-
-    </application>
-</manifest>
+    package="com.njp.library" />
